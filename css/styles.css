@@ -1,0 +1,86 @@
+body{
+    background-image: url('../img/fondo.jpeg');
+    background-size: cover;
+
+
+}
+header{
+    text-align:right;
+}
+.custom-nav .nav-link{
+    font-size: 18px;
+    color:white;
+}
+.custom-nav .nav-link.active,
+.custom-nav .nav-link:focus{
+    background-color:transparent;
+    color: white;
+}
+.custom.nav-link:hover{
+    background-color: transparent;
+    color:rgba(245, 245, 245, 0.908);
+}
+
+.carousel-item img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+.carousel{
+    width: 65%;
+    margin: 0 auto;
+}
+.welcome-text {
+    font-size: 3rem;
+    font-family: 'Dancing Script', 'Cutive Mono', sans-serif;
+    margin: 10px;
+    color: white;
+}
+.container{
+    max-width: 100%;
+    padding: 15px;
+    margin: 0% auto;
+}
+footer{
+    background-color: transparent;
+    color:black;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.footer-icons a img{
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+.footer-icons a img:hover{
+    transform: scale(1.2);
+}
+.contact-container{
+    font-size: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main{
+    font-size: 20px;
+    font-family: 'Dancing Script', 'Cutive Mono', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.main-content{
+    border-radius: 0%;
+    padding: 5%;
+}
